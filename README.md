@@ -1,5 +1,7 @@
 # Simple-Email-Spam-Bot
-A very simple email bot I made with python. Not much to it. Just make sure you have python installed when you run it and have fun!
+A very simple email bot I made with python. When using make sure that you have two factor authentication disabled on the google account that is sending the emails. You can do that here. 
+
+https://myaccount.google.com/u/1/security
 
 This will likely continue to receive updates to make it faster and add image compatability. 
 
