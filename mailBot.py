@@ -1,10 +1,6 @@
-
 import smtplib
 
-
 i = 0
-
-
 
 print("Hello! Welcome to the simpliest email bot ever! It is reccomended to use a throw away email when sending emails with this software! ")
 
@@ -14,8 +10,6 @@ receiverEmail = input("What email address do you want to send the emails too: " 
 runTime = input("How many emails do you want to send: ")
 subject = input("Email Subject: ")
 body = input("Email Main Text: ")
-
-
 
 while i < int(runTime):
 	i += 1
